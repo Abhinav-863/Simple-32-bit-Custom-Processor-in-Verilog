@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="processor32_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="processor32_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="287.600001 us"></ZoomEndTime>
+      <Cursor1Time time="192.200000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="309"></NameColumnWidth>
+      <ValueColumnWidth column_width="121"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/processor32_tb/dut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/din" type="array">
+      <obj_property name="ElementShortName">din[15:0]</obj_property>
+      <obj_property name="ObjectShortName">din[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/dout" type="array">
+      <obj_property name="ElementShortName">dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/IR" type="array">
+      <obj_property name="ElementShortName">IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/GPR" type="array">
+      <obj_property name="ElementShortName">GPR[31:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">GPR[31:0][15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/SGPR" type="array">
+      <obj_property name="ElementShortName">SGPR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SGPR[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/mul_result" type="array">
+      <obj_property name="ElementShortName">mul_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_result[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/sign" type="logic">
+      <obj_property name="ElementShortName">sign</obj_property>
+      <obj_property name="ObjectShortName">sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/overflow" type="logic">
+      <obj_property name="ElementShortName">overflow</obj_property>
+      <obj_property name="ObjectShortName">overflow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/carry" type="logic">
+      <obj_property name="ElementShortName">carry</obj_property>
+      <obj_property name="ObjectShortName">carry</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/jump_flag" type="logic">
+      <obj_property name="ElementShortName">jump_flag</obj_property>
+      <obj_property name="ObjectShortName">jump_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/stop" type="logic">
+      <obj_property name="ElementShortName">stop</obj_property>
+      <obj_property name="ObjectShortName">stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/temp_add" type="array">
+      <obj_property name="ElementShortName">temp_add[16:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_add[16:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/instruction_memory" type="array">
+      <obj_property name="ElementShortName">instruction_memory[15:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_memory[15:0][31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <wvobject fp_name="/processor32_tb/dut/instruction_memory[15]" type="array">
+         <obj_property name="ElementShortName">[15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor32_tb/dut/instruction_memory[14]" type="array">
+         <obj_property name="ElementShortName">[14][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor32_tb/dut/instruction_memory[13]" type="array">
+         <obj_property name="ElementShortName">[13][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor32_tb/dut/instruction_memory[12]" type="array">
+         <obj_property name="ElementShortName">[12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor32_tb/dut/instruction_memory[11]" type="array">
+         <obj_property name="ElementShortName">[11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor32_tb/dut/instruction_memory[10]" type="array">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor32_tb/dut/instruction_memory[9]" type="array">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor32_tb/dut/instruction_memory[8]" type="array">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor32_tb/dut/instruction_memory[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor32_tb/dut/instruction_memory[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor32_tb/dut/instruction_memory[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor32_tb/dut/instruction_memory[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor32_tb/dut/instruction_memory[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor32_tb/dut/instruction_memory[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor32_tb/dut/instruction_memory[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor32_tb/dut/instruction_memory[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/data_memory" type="array">
+      <obj_property name="ElementShortName">data_memory[15:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_memory[15:0][15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/count" type="array">
+      <obj_property name="ElementShortName">count[2:0]</obj_property>
+      <obj_property name="ObjectShortName">count[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/FETCH_INSTRUCTION" type="array">
+      <obj_property name="ElementShortName">FETCH_INSTRUCTION[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FETCH_INSTRUCTION[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/DECODE_EXECUTE_INSTRUCTION" type="array">
+      <obj_property name="ElementShortName">DECODE_EXECUTE_INSTRUCTION[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DECODE_EXECUTE_INSTRUCTION[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/DELAY_NEXT_INSTRUCTION" type="array">
+      <obj_property name="ElementShortName">DELAY_NEXT_INSTRUCTION[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DELAY_NEXT_INSTRUCTION[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/NEXT_INSTRUCTION" type="array">
+      <obj_property name="ElementShortName">NEXT_INSTRUCTION[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NEXT_INSTRUCTION[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor32_tb/dut/SENSE_HALT" type="array">
+      <obj_property name="ElementShortName">SENSE_HALT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SENSE_HALT[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>
