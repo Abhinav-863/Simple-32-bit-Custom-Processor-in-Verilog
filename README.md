@@ -12,14 +12,15 @@ This repository contains the Verilog implementation of a simple 32-bit processor
 # Instruction Format
 Each instruction consists of 32 bits, divided as follows:
 
-# | Bits	| Field |	Description |
-| --- | ---: | :--- |
-| 31-27	| opr_type	| Operation type (opcode) |
-| 26-22	| dest_reg	| Destination register |
-| 21-17	| src1_reg	| Source register 1 |
-| 16	| imm_mode	| Immediate mode (1 = immediate) |
-| 15-11	| src2_reg	| Source register 2 |
-| 15-0	| imm	| Immediate value (if enabled) |
+| Bits   | Field     | Description                      |
+|--------|----------|----------------------------------|
+| 31-27  | opr_type | Operation type (opcode)         |
+| 26-22  | dest_reg | Destination register            |
+| 21-17  | src1_reg | Source register 1               |
+| 16     | imm_mode | Immediate mode (1 = immediate)  |
+| 15-11  | src2_reg | Source register 2               |
+| 15-0   | imm      | Immediate value (if enabled)    |
+
 
 # Supported Instructions
 # Arithmetic Operations
