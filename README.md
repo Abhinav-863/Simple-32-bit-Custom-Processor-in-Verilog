@@ -1,7 +1,7 @@
 # Simple-32-bit-Custom-Processor-in-Verilog
 This repository contains the Verilog implementation of a simple 32-bit processor. The design follows the Harvard architecture, with separate instruction and data memory. The processor supports arithmetic, logical, memory, and jump operations.
 
-#Features
+# Features
 1. 32-bit instruction format with support for immediate values
 2. Harvard architecture with separate instruction and data memory
 3. 32 general-purpose registers (GPR)
